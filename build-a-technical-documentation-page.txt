@@ -1,0 +1,366 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet" />
+    <title>Technical documentachion page </title>
+</head>
+
+<body>
+
+    <nav id="navbar">
+        <header>React библиотека</header>
+        <ul>
+            <li><a class="nav-link" href="#Getting_Started">Getting Started</a></li>
+            <li>
+                <a class="nav-link" href="#Try_React">Try React</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#Add_React_to_a_Website">Add React to a Website</a>
+            </li>
+            <li><a class="nav-link" href="#Create_a_New_React_App">Create a New React App</a></li>
+            <li><a class="nav-link" href="#Learn_React">Learn React</a></li>
+            <li>
+                <a class="nav-link" href="#First_Examples">First Examples</a>
+            </li>
+            <li><a class="nav-link" href="#React_for_Beginners">React for Beginners</a></li>
+            <li>
+                <a class="nav-link" href="#React_for_Designers">React for Designers</a>
+            </li>
+
+
+            <li> <a class="nav-link" href="#Introducing_JSX">Introducing JSX</a>
+            </li>
+            <li><a class="nav-link" href="#Rendering_Elements">Rendering Elements</a></li>
+            <li><a class="nav-link" href="#Reference">Reference</a></li>
+        </ul>
+    </nav>
+
+
+
+
+
+    <main id="main-doc">
+
+        <section class="main-section" id="Getting_Started">
+            <header>Getting Started</header>
+            <article>
+                <p> React — это JavaScript-библиотека для создания пользовательских интерфейсов.
+                    Обратите внимание, что это именно библиотека, а не фреймворк.
+                    React часто называют фреймворком, но это ошибка. Во-первых, его использование
+                    ни к чему вас не обязывает, не формирует «фрейм» проекта. Во-вторых, React выполняет
+                    единственную задачу: показывает на странице компонент интерфейса, синхронизируя его с
+                    данными приложения, и только этой библиотеки в общем случае недостаточно для того,
+                    чтобы полностью реализовать проект.</p>
+                <p>Вскоре после появления React и подобные ему решения (Vue.js, Svelte)
+                    практически захватили мир фронтенда: потому что они помогают решать проблемы,
+                    основываясь на идее декларативного программирования, а не на императивном подходе.</p>
+                <ul>
+                    <li> Декларативный подход состоит в описании конечного результата (что мы хотим получить).</li>
+                    <li>При императивном подходе описываются конкретные шаги для достижения
+                        конечного результата (как мы хотим что-то получить).</li>
+                </ul>
+                <p>Оказалось, что декларативный подход отлично подходит для создания интерфейсов,
+                    и он прижился в сообществе. Этот подход работает не только в вебе: сравнительно
+                    недавно компания Apple представила фреймворк SwiftUI, основанный на тех же принципах.</p>
+                <p>Чтобы лучше понять, о чём идёт речь, рассмотрим императивный и
+                    декларативный подходы на примерах. Напишем две версии простого приложения:
+                    на HTML и JS (императивный подход) и на React (декларативный подход). </p>
+            </article>
+        </section>
+
+
+        <section class="main-section" id="Try_React">
+            <header>Try React</header>
+            <article>
+                <p>React изначально был спроектирован так, чтобы его можно было внедрять постепенно. Другими словами, вы
+                    можете начать с малого и использовать только ту функциональность React, которая необходима вам в
+                    данный момент.</p>
+
+            </article>
+        </section>
+
+        <section class="main-section" id="Add_React_to_a_Website">
+            <header>Add React to a Website</header>
+            <article>
+                <p> Вы можете добавить React на свой сайт буквально за одну минуту. После этого можно разместить на
+                    сайте несколько динамических виджетов и постепенно наращивать использование React в своём проекте.
+
+                </p>
+
+            </article>
+        </section>
+
+
+        <section class="main-section" id="Create_a_New_React_App">
+            <header>Create a New React App</header>
+            <article>
+                <p> Когда вы начинаете проект на React, то простая HTML-страница со script-тегами может быть лучшим
+                    вариантом. Её можно сделать за минуту.
+
+                    Однако для разработки более развесистого приложения вам, скорее всего, придётся рассмотреть другие
+                    варианты настройки рабочего окружения, объединяющие в себе различные технологии. Вот несколько
+                    наборов JavaScript-инструментов, которые мы рекомендуем для создания приложения. Каждый из этих
+                    инструментов может работать практически без настройки и позволит раскрыть все возможности экосистемы
+                    React.</p>
+
+            </article>
+        </section>
+
+        <section class="main-section" id="Learn_React">
+            <header>Learn React</header>
+            <article>
+                <p>Люди приходят к React с разным опытом и стилем обучения. Некоторые предпочитают учиться на ходу, а
+                    кому-то нравится сначала овладеть теорией. В любом случае мы надеемся, что этот раздел будет для вас
+                    полезен.</p>
+
+                <ul>
+                    <li> Если вам больше нравится учиться на ходу, начните с введения.</li>
+                    <li>Если вы хотите сначала овладеть теорией, то начните с пошагового описания React.</li>
+                </ul>
+                <p>React сначала может показаться сложным, но приложив усилие, вы обязательно его освоите. Терпение и
+                    труд все перетрут!
+
+                </p>
+
+            </article>
+        </section>
+
+        <section class="main-section" id="First_Examples">
+            <header>First Examples</header>
+            <article>
+                <p> React-компоненты реализуют метод render(), который принимает входные данные и возвращает что-то для
+                    вывода. В этом примере используется XML-подобный синтаксис под названием JSX. Входные данные,
+                    передаваемые в компонент, доступны в render() через this.props.</p>
+
+                <p></p> JSX необязателен для работы с React. Попробуйте Babel REPL, чтобы увидеть JavaScript-код,
+                полученный
+                на этапе компиляции JSX.</p>
+
+            </article>
+        </section>
+
+
+        <section class="main-section" id="React_for_Beginners">
+            <header>React for Beginners</header>
+            <article>
+                <p> Есть несколько вещей, которые вы должны знать заранее, прежде чем начать играть с React. Например,
+                    если вы никогда раньше не использовали JavaScript или DOM, я бы лучше ознакомился с ними, прежде чем
+                    пытаться заняться React.
+
+                </p>
+                <p>Вскоре после появления React и подобные ему решения <code>(Vue.js, Svelte)</code>
+                    практически захватили мир фронтенда: потому что они помогают решать проблемы,
+                    основываясь на идее декларативного программирования, а не на императивном подходе.</p>
+                <p>Вот что я считаю предварительными условиями React.</p>
+                <ul>
+                    <li> Базовые знания HTML и CSS .</li>
+                    <li>Базовые знания JavaScript и программирования.</li>
+                    <li>Базовое понимание DOM .</li>
+                    <li>Базовые знания JavaScript и программирования.</li>
+                    <li> Знакомство с синтаксисом и функциями ES6 .</li>
+                    <li>Node.js и npm установлены глобально.</li>
+
+                </ul>
+
+            </article>
+        </section>
+
+        <section class="main-section" id="React_for_Designers">
+            <header>React for Designers</header>
+            <article>
+                <p> Если вы в первую очередь занимаетесь дизайном, вам могут пригодиться ресурсы, собранные <a
+                        href="https://reactfordesigners.com/">на этом сайте</a>.
+                </p>
+
+            </article>
+        </section>
+
+        <section class="main-section" id="Introducing_JSX">
+            <header>Introducing JSX</header>
+            <article>
+                <p> React исходит из принципа, что логика рендеринга неразрывно связана с прочей логикой UI: с тем, как
+                    обрабатываются события, как состояние изменяется во времени и как данные готовятся к отображению.
+                </p>
+
+                <p> Вместо того, чтобы искусственно разделить технологии, помещая разметку и логику в разные файлы,
+                    React разделяет ответственность с помощью слабо связанных единиц, называемых «компоненты», которые
+                    содержат и разметку, и логику. Мы ещё вернёмся к теме компонентов в следующей главе, но если идея
+                    держать разметку в JavaScript-коде всё ещё вызывает у вас дискомфорт, этот доклад может переубедить
+                    вас.</p>
+
+                <p></p>React можно использовать и без JSX, но большинство людей ценит его за наглядность при работе с
+                UI,
+                живущем в JavaScript-коде. Помимо этого, JSX помогает React делать сообщения об ошибках и
+                предупреждениях понятнее.</p>
+                <p>Вскоре после появления React и подобные ему решения  <code>(Vue.js, Svelte)</code>
+                    практически захватили мир фронтенда: потому что они помогают решать проблемы,
+                    основываясь на идее декларативного программирования, а не на императивном подходе.</p>
+
+            </article>
+        </section>
+
+
+        <section class="main-section" id="Rendering_Elements">
+            <header>Rendering Elements</header>
+            <article>
+                <p> Допустим, в вашем HTML-файле есть:</p>
+                <code>&ltdiv id="root">&lt;/div&gt</code>
+                <p> Мы назовём его «корневым» узлом DOM, так как React DOM будет управлять его содержимым.</p>
+
+                <p> Обычно в приложениях, написанных полностью на React, есть только один корневой элемент. При встраивании
+                React в существующее приложение вы можете рендерить во столько независимых корневых элементов, во
+                сколько посчитаете нужным.</p>
+
+                <p> Для рендеринга React-элемента, сперва передайте DOM-элемент в ReactDOM.createRoot(), далее передайте с
+                React-элементом в root.render():</p>
+
+                <p> <code>const root = ReactDOM.createRoot(
+                    document.getElementById('root')
+                  );</code> </p>
+                  <p> <code> const element = &lth1&gtHello, world&lt/h1&gt;
+                  root.render(element);</code></p>
+                  <p>На странице будет написано «Hello, world».</p>
+            </article>
+        </section>
+
+
+
+
+        <section class="main-section" id="Reference">
+            <header>Reference</header>
+            <article>
+                <ul>
+                    <li>
+                        Больше документации вы найдёте на
+                        <a href="https://ru.reactjs.org/" target="_blank">reactjs.org</a>
+                    </li>
+                </ul>
+            </article>
+        </section>
+
+
+
+    </main>
+
+</body>
+
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+@import url('https://fonts.googleapis.com/css2?family=B612&family=Noto+Sans&family=Oswald&family=PT+Sans&display=swap');
+
+body {
+
+    background-color: #e7e6e4;
+    font-size: 20px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+#navbar {
+
+    position: fixed;
+    min-width: 340px;
+    height: 100%;
+    border-right: solid;
+    border-color: gray;
+    top: 0px;
+    left: 0px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#main-doc {
+    position: absolute;
+    margin-left: 350px;
+
+}
+
+main header {
+    text-indent: 1.1em;
+    /* Отступ первой строки */
+    font-size: 40px;
+    font-weight: 500;
+}
+
+nav header {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 34px;
+}
+
+#navbar ul {
+    width: 100%;
+    padding-left: 0;
+   
+
+}
+
+#navbar li {
+    list-style-type: none;
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    border-top: 1px solid;
+    
+}
+
+#navbar li a {
+    text-decoration: none;
+    margin-left: 5px;
+    cursor: pointer;
+    color: black;
+
+}
+
+article {
+    width: 92%;
+    margin: 0px auto 20px auto;
+    font-size: 20px;
+    text-indent: 1.5em;
+    /* Отступ первой строки */
+    text-align: justify;
+    /* Выравнивание по ширине */
+}
+
+section {
+    margin-top: 30px;
+}
+
+
+@media only screen and (max-width: 815px) {
+    /* For mobile phones: */
+    #navbar ul {
+      border: 1px solid;
+      height: 207px;
+    }
+  
+    #navbar {
+      background-color: white;
+      position: absolute;
+      top: 0;
+      padding: 0;
+      margin: 0;
+      width: 100%;
+      max-height: 275px;
+      border: none;
+      z-index: 1;
+      border-bottom: 2px solid;
+    }
+  
+    #main-doc {
+      position: relative;
+      margin-left: 0px;
+      margin-top: 290px;
+    }
+  }
+
+** end of undefined **
+
